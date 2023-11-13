@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 *{
     box-sizing: border-box;
    
@@ -9,6 +11,7 @@ body{
     margin: 0px ,auto;
     font-size: 1rem;
     font-weight: 400;
+    font-family: 'Roboto', sans-serif;
    
 
 
@@ -95,6 +98,9 @@ button{
     margin-left: 30px;
     
 }
+.dismiss{
+    background-color:hsl(4, 100%, 67%);
+}
 button:hover{
     cursor: pointer;
     background: linear-gradient(90deg, rgba(255, 85, 143, 1)0% );
@@ -130,7 +136,7 @@ span{
 }
 .thank-you button{
     margin-bottom: 30px;
-    color:hsl(231, 7%, 60%);
+    color:white;
     font-size: 1.2rem;
 }
 @media(max-width: 950px){
@@ -141,13 +147,10 @@ span{
         padding: 0;
         border-radius: 0;
     }
-    .main-container img{
-        width: 800px;
-        
-    }
+    
     .thank-you{
         width: 100%;
-        height: 100vh;
+        height: auto;
         border-radius: 0;
         justify-content: space-between;
         padding: 20px;
@@ -156,6 +159,7 @@ span{
         
 
     }
+    
     .thank-you p{
         font-size: 1.2em;
     }

@@ -45,7 +45,7 @@ function Signup() {
       <h1>Thanks for subscribing!</h1>
       <p>A confirmation email has been sent to <span>{emailValue()}</span>. Please open it and click the button inside to confirm your subscription 
       </p>
-      <button onClick={switchToSignup}>Dismiss message</button>
+      <button className='dismiss'onClick={switchToSignup}>Dismiss message</button>
       </div>
       </div>
     
@@ -105,7 +105,7 @@ function Signup() {
               <button onClick={submitEmail}>Subscribe to monthly newsletter </button>
               
               </div>
-              <div >
+              <div className='desktop'>
         <img src="src/images/illustration-sign-up-desktop.svg" alt=""></img>
         </div>
         </div>
