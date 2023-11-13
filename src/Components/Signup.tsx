@@ -5,10 +5,11 @@ function Signup() {
   const[showState, setShowState] = useState(false)
   const[errorEmail,setErrorEmail] = useState('')
   const[activeError, setActiveError] = useState(false)
-  const inputRefEmail = useRef(null)
+  
+  const inputRefEmail = useRef(null);
 
 
-  function isValidEmail(email){
+  function isValidEmail(email: string){
     return /\S+@\S+\.\S+/.test(email)
   }
   const switchToSignup = ()=>{
@@ -16,13 +17,15 @@ function Signup() {
   }
 
   function emailValue(){
-    return inputRefEmail.current.value
+    
+    return inputRefEmail.current
   }
 
-    const submitEmail=(e)=>{
+
+    const submitEmail=(e: { preventDefault: () => void; })=>{
         e.preventDefault();
 
-        if(inputRefEmail.current.value === "" || !isValidEmail(inputRefEmail.current.value)){
+        if(inputRefEmail.current === "" || !isValidEmail){
             setErrorEmail("Valid email required")
             setShowState(false)
             setActiveError(true)
