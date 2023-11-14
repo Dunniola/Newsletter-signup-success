@@ -12,10 +12,10 @@ This is the solution to the <a href ="https://www.frontendmentor.io/challenges/n
   <li>Flexbox</li>
   <li>React JS</li>
   <li>Mobile-first approach</li>
-  <li><a href ="">React-JS library </a></li>
+  <li><a href ="">React-JS </a>library </li>
 </ul>
 
 ## Author
-    <ul>
-      <li <a href ="https://www.frontendmentor.io/home/my-challenges?tab=completed">Frontend Mentor </li>
+ <ul>
+   <li>Frontend Mentor -<a href ="https://www.frontendmentor.io/home/my-challenges?tab=completed">@Dunniola</a</li>
     </ul>
