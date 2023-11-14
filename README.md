@@ -3,9 +3,9 @@ This is the solution to the <a href ="https://www.frontendmentor.io/challenges/n
 ## Links
 <ul>
   <li>Solution URL:<a href ="">Source code </a></li>
-  <li>Live Site URL:<a href = ""> View Demo </a></li>
-</ul>
-## Built with 
+  <li>Live Site URL:<a href = ""> View DEMO
+    
+## Built with
 <ul>
   <li>Sematic HTML5 Markup</li>
   <li>CSS custom properties</li>
@@ -13,5 +13,9 @@ This is the solution to the <a href ="https://www.frontendmentor.io/challenges/n
   <li>React JS</li>
   <li>Mobile-first approach</li>
   <li><a href ="">React-JS library </a></li>
-<
 </ul>
+
+## Author
+    <ul>
+      <li <a href ="https://www.frontendmentor.io/home/my-challenges?tab=completed">Frontend Mentor </li>
+    </ul>
