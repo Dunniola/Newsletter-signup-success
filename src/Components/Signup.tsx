@@ -18,14 +18,14 @@ function Signup() {
 
   function emailValue(){
     
-    return inputRefEmail.current
+    return inputRefEmail.current.value
   }
 
 
-    const submitEmail=(e: { preventDefault: () => void; })=>{
+    const submitEmail=(e)=>{
         e.preventDefault();
 
-        if(inputRefEmail.current === "" || !isValidEmail){
+        if(inputRefEmail.current === "" || !isValidEmail(inputRefEmail.current.value)){
             setErrorEmail("Valid email required")
             setShowState(false)
             setActiveError(true)
