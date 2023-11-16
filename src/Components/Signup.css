@@ -119,7 +119,7 @@ button:hover{
 }
 .logo img{
     padding: 20px;
-    width: 18%;
+    width: 23%;
 }
 span{
     font-weight: 700;
@@ -150,7 +150,7 @@ span{
     
     .thank-you{
         width: 100%;
-        height: auto;
+        height: 100vh;
         border-radius: 0;
         justify-content: space-between;
         padding: 20px;
