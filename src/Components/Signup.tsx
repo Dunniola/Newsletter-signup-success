@@ -1,6 +1,6 @@
 import { useState, useRef} from "react";
 import "./Signup.css";
-import iconSucess from "../component/images/icon-sucess.svg"
+import iconSucess from "../images/icon-sucess.svg"
 
 function Signup() {
   const[showState, setShowState] = useState(false)
