@@ -1,5 +1,6 @@
 import { useState, useRef} from "react";
 import "./Signup.css";
+import iconSucess from "../component/images/icon-sucess.svg"
 
 function Signup() {
   const[showState, setShowState] = useState(false)
@@ -43,7 +44,7 @@ function Signup() {
      
       <div className="thank-you">
         <div className="logo">
-      <img src="src/images/icon-success.svg" alt="icon-list" />
+      <img src={iconSuccess} alt="icon-list" />
       </div>
       <h1>Thanks for subscribing!</h1>
       <p>A confirmation email has been sent to <span>{emailValue()}</span>. Please open it and click the button inside to confirm your subscription 
@@ -75,13 +76,13 @@ function Signup() {
 
               <div className="list-box">
               
-              <img src="src/images/icon-success.svg" alt="icon-list" />
+              <img src={iconSuccess}alt="icon-list" />
               
               <p>Measuring to ensure updates are a success</p> 
               </div>
 
               <div className="list-box">
-              <img src="src/images/icon-success.svg" alt="icon-list" />
+              <img src={iconSuccess} alt="icon-list" />
               <p>And much more!</p>
               </div>
              
