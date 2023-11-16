@@ -1,6 +1,7 @@
 import { useState, useRef} from "react";
 import "./Signup.css";
 import iconSuccess from "../images/icon-success.svg"
+import desktopIllustration from "../images/illustration-sign-up-desktop.svg"
 
 function Signup() {
   const[showState, setShowState] = useState(false)
@@ -110,7 +111,7 @@ function Signup() {
               
               </div>
               <div className='desktop'>
-        <img src="src/images/illustration-sign-up-desktop.svg" alt=""></img>
+        <img src={desktopIllustration} alt="desktop-signup-icon"></img>
         </div>
         </div>
               
