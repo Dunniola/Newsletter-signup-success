@@ -1,6 +1,6 @@
 import { useState, useRef} from "react";
 import "./Signup.css";
-import iconSucess from "../images/icon-sucess.svg"
+import iconSuccess from "../images/icon-success.svg"
 
 function Signup() {
   const[showState, setShowState] = useState(false)
@@ -69,7 +69,7 @@ function Signup() {
              
             <div className='list-icon'>
                 <div className="list-box">
-              <img src="src/images/icon-success.svg" alt="icon-list" />
+              <img src={iconSuccess}alt="icon-list" />
               <p>Product discovery and building what matters</p>
               
               </div>
