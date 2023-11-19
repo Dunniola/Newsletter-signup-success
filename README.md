@@ -22,7 +22,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL:<a href ="https://github.com/Dunniola/Newsletter-signup">Source code </a>
+- Solution URL:<a href ="https://github.com/Dunniola/Newsletter-signup-success">Source code </a>
 - Live Site URL:<a href = "https://dunniola.github.io/Newsletter-signup-success/"> View DEMO
   </a>
 
